@@ -29,7 +29,7 @@ function init() {
 			container.addChild(heart);
 		}
 
-  var text = new createjs.Text("Feliz dia madrecita\nLa amo mucho", "bold 24px Arial", "#fff");
+  var text = new createjs.Text("Feliz dia madrecita\nLa amo mucho\nBesito <3", "bold 24px Arial", "#fff");
   text.textAlign = "center";
   text.x = w / 2;
   text.y = h / 2 - text.getMeasuredLineHeight();
